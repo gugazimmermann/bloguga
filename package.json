@@ -1,0 +1,22 @@
+{
+  "name": "bloguga",
+  "version": "1.0.0",
+  "description": "Blog made in React + Next.js + Google Blogger API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
+  },
+  "author": "Guga Zimmermann",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "material-ui": "^0.20.2",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-tap-event-plugin": "^3.0.3"
+  }
+}
